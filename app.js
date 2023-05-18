@@ -2,7 +2,7 @@
 // it augments the installed puppeteer with plugin functionality
 const puppeteer = require('puppeteer-extra');
 const axios = require("axios");
-const RecaptchaPlugin = require('puppeteer-extra-plugin-recaptcha');
+const RecaptchaPlugin = require('puppeteer-extra-plugin-recaptcha');        
 const { readFileSync } = require("fs");
 const { setInterval } = require('timers/promises');
 require("colors")
